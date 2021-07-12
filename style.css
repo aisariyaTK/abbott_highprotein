@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+.head img {
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    color: #193768;
+    font-size: 24px;
+}
+
+.main {
+    width: 100%;
+    height: 1050px;
+    background-image: linear-gradient(#f1f8fc, #cce8f6, #90d5ee);
+}
+
+.heading {
+    width: 100%;
+    height: 250px;
+}
+.image img {
+    width: 350px;
+    height: auto;
+}
+.text {
+    color: #193768;
+    padding-left: 35px;
+    padding-top: 55px;
+}
+.text p {
+    font-size: 20px;
+}
+
+section.start, section {
+    width: 100%;
+    height: auto;
+}
+
+.heading h1 {
+    font-size: 36px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    justify-items: center;
+}
+
+h1.hmb {
+    position: relative;
+    font-size: 72px;
+    color: #193768;
+    top: -35%;
+    left: 19%;
+}
+
+.contents-main h1 {
+    padding-top: 60px;
+    color: #193768;
+    font-size: 42px;
+}
+.contents-main h1 span {
+    color: #e6ac54;
+    font-size: 42px;
+}
+.contents-main h2 {
+    display: inline-block;
+    color: #193768;
+    font-size: 36px;
+    margin-top: 40px;
+}
+.contents-main {
+    margin-top: 21px;
+}
+i.fa-calendar, i.fa-clock-o {
+    color: #199bd7;
+}
+.contents-main span {
+    font-size: 42px;
+    color: #199bd7;
+}
+.contents-main p {
+    font-size: 42px;
+    color: #193768;
+}
+.grid-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 210px 1fr 1fr;
+    grid-template-rows: 100px;
+    align-items: center;
+    color: #fff;
+    background-color: #199bd7;
+    margin-bottom: 100px;
+}
+.speakers h1 {
+    text-align: center;
+}
+
+.prof1, .prof2 {
+    padding-left: 170px;
+}
+.prof1 h1, .prof2 h1 {
+    font-size: 18px;
+}
+.prof1 p, .prof2 p {
+    font-size: 10px;
+}
+img.pr1 {
+    position: absolute;
+    border: 8px solid #199bd7;
+    border-radius: 50%;
+    left: 30%;
+    top: 136%;
+}
+img.pr2 {
+    position: absolute;
+    border: 8px solid #199bd7;
+    border-radius: 50%;
+    left: 56%;
+    top: 136%;
+}
+.regis {
+    text-align: center;
+}
+.regis span {
+    color: #fff;
+    font-size: 36px;
+    padding: 12px 30px;
+    border: 1px solid #1A3768;
+    border-radius: 50px;
+    background-color: #1A3768;
+}
+
+
+.Abbott {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.Abbott p {
+    font-size: 18px;
+}
+.Abbott h3 {
+    font-size: 30px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 50px
+}
+.contact p {
+    margin-top: 10px;
+    font-size: 24px;
+}
+.contact span {
+    display: block;
+    padding-top: 50px;
+    font-size: 12px;
+}
+div.content {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .name p {
+        font-size: 18px;
+    }
+    .image img {
+        width: 250px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .text h1 {
+        font-size: 20px;
+    }
+    div.main {
+        height: 1230px;
+        text-align: center;
+    }
+    div.heading {
+        height: 170px;
+    }
+
+    div.content {
+        padding-top: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 275px;
+        text-align: center;
+    }
+    .water img {
+        width: 180px;
+    }
+    h1.hmb {
+        font-size: 56px;
+        left: 1%;
+        top: -40%;
+    }
+    .contents-main h1, .contents-main h1 span {
+        padding-top: 0;
+        font-size: 20px;
+    }
+    .contents-main h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .contents-main span {
+        font-size: 24px;
+    }
+    .contents-main p.date {
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    .contents-main p {
+        font-size: 24px;
+    }
+
+
+
+
+}
